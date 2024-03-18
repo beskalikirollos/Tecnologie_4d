@@ -1,0 +1,162 @@
+.html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homepage {
+      font-size: 150px; 
+      font-weight: bold; 
+      text-align: center;
+   
+  }
+  
+  .profili-nomi {
+    align-items: center;
+  }
+  
+  h1.titolo-profili {
+    font-size: 150px; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  .contenitore-bottone {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .person-image {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .buttonsp {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    height: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+  
+  .button {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    height: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+  
+  .profile {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .profile-image {
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+  
+  .profile-details {
+    font-size: 30px;
+    flex-basis: 30%;
+    flex-grow: 1;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .button {
+      font-size: 18px;
+      background-color: #008542;
+      color: #fff;
+      text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border: 0;
+      z-index: 1;
+      user-select: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      white-space: unset;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-weight: 900;
+      transition: all 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+    
+      position: absolute;
+      pointer-events: none;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      content: "";
+      transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+      z-index: -1;
+      background-color: #008542 !important;
+      box-shadow: 0 -4px rgb(21 108 0 / 50%) inset,
+        0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset,
+        4px 0 rgb(21 108 0 / 50%) inset;
+      position: absolute;
+      pointer-events: none;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      content: "";
+      box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+      transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+      box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset,
+        -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
+      box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+      transform: translateY(4px);
+      box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+  }

@@ -1,0 +1,27 @@
+{
+    "profiles": [
+      {
+        "firstname": "toyota",
+        "lastname": "supra",
+        "bio": "la toyota supra mk4 è un auto che uscì per la prima volta in giappone nell'anno 1994, nacque come auto per le gare in giappone, ma divenne famosa nel tempo per le modifiche che le persone apportavano al motore, il 2jz, un motore che regge modifiche mostruose e può arrivare anche a 1500 cavalli con i giusti setting di boost .",
+        "imgSrc": "/images/toyota supra .jpeg",
+        "id": "supra"
+      },
+   
+      {
+        "firstname": "porche",
+        "lastname": "gt3rs",
+        "bio": "la porche gt3rs è una tra le auto omologate per la strada più veloci del mondo sui cirquiti grazie all'ingegneria fenomenale di porche che si è concentrata sul rendere l'auto il più fluida possibile tra le curve. il primo modello di gt3rs uscì nel 2006 ",
+        "imgSrc": "/images/porche gt3rs.jpeg",
+        "id": "gt3rs"
+      },
+   
+      {
+        "firstname": "nissan",
+        "lastname": "gtr r34",
+        "bio": "la nissan gtr r34 nasce in giappone, anche lei come nasce come auto per le competizioni giapponesi, il primo modello stradale uscì nel 1999, quest'auto come la supra poi diventò famosa grazie alle modifiche che le persone facevano al mootore per renderla molto più potente, nel tempo prese anche il nomignolo di godzilla per via del suono unico dato dal motore rb26dett ",
+        "imgSrc": "/images/nissan skyline.jpeg",
+        "id": "R34"
+      }
+    ]
+   }
