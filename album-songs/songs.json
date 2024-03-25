@@ -1,0 +1,32 @@
+{ "songs": [
+    {
+        "song_id": "king von",
+        "title" : "3 am",
+        "author": "king von",
+        "lyrics":"Pat him down, look, what? I found his pistol Looked to the right 'cause I heard a giggleTurned around and this bitch my sister Ay, Kayla, why you dressed like a hooker? And all the niggas that you fuck with be pussy? Damn, look, man, I'm sorry, I'm sorry for ruining' y'all party But I'm keepin' the money and jewelry Just walk it off, you would thank me tomorrow",
+        "thumbnail": "king von.jpeg"     
+    },
+
+    {
+        "song_id": "offset",
+        "title" : "red room",
+        "author": "offset",
+        "lyrics":"I'm a maniac go crazy for the cash (hey, brazy) Green Lamborghini, paper tags (skrt)  Ridin' through the city, thirty mags (brrt, bow)  Niggas snitchin', they the police with no badge ",
+        "thumbnail": "offset.jpeg"
+        
+    },
+
+    {
+        "song_id": "trippie redd",
+        "title" : "keep your head up ",
+        "author": "trippie redd",
+        "lyrics":"Now my wrist froze up, bitchLamborghini got the doors up, bitchYou know what it is, you chose up, bitchKeep your heart, keep your soul up, bitchYou was looking for exposure, bitchI was looking for some closure, bitch",
+        "thumbnail": "trippie redd.jpeg"
+        
+    }
+    
+
+    
+ ]
+
+}

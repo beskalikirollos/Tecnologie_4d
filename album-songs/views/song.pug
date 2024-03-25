@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title #{song.title}
+    link(rel="stylesheet", href="/styles/styles.css")
+  body
+    h1.titolo #{song.title}
+    img(src=`/images/${song.thumbnail}`, alt=song.title)
+    
+    p AUTORE: #{song.author}
+    p TESTO: 
+    pre #{song.lyrics}
+    hr
+    a.right(href="/") Back to Menu

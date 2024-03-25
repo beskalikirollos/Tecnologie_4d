@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  
+  
+  
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bm {
+      justify-content: center;
+      align-items: center;
+      color: #007bff;
+      text-decoration: none;
+      font-size: 30px;
+      text-decoration: underline;
+  }
+  
+  .html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homepage {
+      font-size: 140px; 
+      text-align: center;
+   
+  }
+  
+  
+  h1 {
+    color: #000; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+  }
+  
+  
+  p {
+    color: #000; 
+    font-size: 40px; 
+    margin-bottom: 15px; 
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%; /* Larghezza massima */
+    display: block; /* Per garantire spazio vuoto intorno all'immagine */
+    margin-bottom: 20px; /* Spazio inferiore */
+    width: 350px;
+    height: 350px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  
+  }
+  
+  .button {
+  
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1ED760;
+    height: 48px;
+    transform: scale(1.04);
+    background-color: #21e065;
+  
+  
+  }
+  
+  .pre{
+    margin-left: 100px;
+  }
+  .centered {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .right {
+    display: block;
+    margin: auto;
+    text-align: right;
+  }
+  a {
+    color: #007bff;
+    text-decoration: underline; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
+  
+  .titolo {
+      font-size: 60px;
+      text-align: center;
+  }
