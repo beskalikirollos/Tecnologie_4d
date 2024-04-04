@@ -1,0 +1,69 @@
+/* Stile generale per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif; /* Cambiato il font */
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Cambiato il colore di sfondo */
+}
+
+/* Stile per il contenitore principale */
+.container {
+    max-width: 900px; /* Aumentato il massimo larghezza */
+    margin: 50px auto; /* Aumentato il margine superiore e inferiore */
+    padding: 30px; /* Aumentato il padding */
+    background-color: #fff;
+    border-radius: 12px; /* Aumentato il raggio del bordo */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Aumentata l'ombra */
+}
+
+/* Stile per il titolo */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; /* Aggiunto il margine inferiore */
+    text-transform: uppercase; /* Trasformazione del testo in maiuscolo */
+}
+
+/* Stile per i pulsanti */
+button {
+    background-color: #4CAF50; /* Cambiato il colore del pulsante */
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Aumentato il padding */
+    cursor: pointer;
+    border-radius: 6px; /* Aumentato il raggio del bordo */
+    transition: background-color 0.3s ease;
+    display: block; /* Rendere il pulsante un blocco per allinearlo al centro */
+    margin: 0 auto; /* Allineato al centro */
+}
+
+button:hover {
+    background-color: #45a049; /* Cambiato il colore al passaggio del mouse */
+}
+
+/* Stile per le caselle di testo */
+input[type="text"],
+textarea {
+    width: 100%;
+    margin-bottom: 20px; /* Aumentato il margine inferiore */
+    padding: 12px; /* Aumentato il padding */
+    border-radius: 6px;
+    border: 2px solid #ccc; /* Aumentato lo spessore del bordo */
+    box-sizing: border-box; /* Incluso il padding e il bordo nella larghezza */
+}
+
+/* Stile per le email nella lista */
+.sent-email {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px; /* Aumentato il margine inferiore */
+    border-radius: 10px; /* Aumentato il raggio del bordo */
+    background-color: #f5f5f5; /* Cambiato il colore di sfondo */
+}
+
+/* Stile per evidenziare le email speciali */
+.special {
+    background-color: #ff9800; /* Cambiato il colore di sfondo */
+    color: #fff; /* Cambiato il colore del testo */
+    font-weight: bold; /* Reso il testo in grassetto */
+}
